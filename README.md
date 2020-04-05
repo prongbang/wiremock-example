@@ -20,5 +20,6 @@ $ docker-compose up
 - Golang
 
 ```
+$ go get -u github.com/prongbang/wiremock
 $ wiremock
 ```
