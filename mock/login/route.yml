@@ -3,6 +3,9 @@ routes:
     request:
       method: "POST"
       url: "/api/v1/login"
+      body:
+        username: "admin"
+        password: "pass"
     response:
       status: 200
       body: >
